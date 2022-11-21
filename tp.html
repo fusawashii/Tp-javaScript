@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tp de javaScript </title>
+</head>
+<body>
+    <script type="text/javascript"> 
+
+           var a = prompt("entrer le premier coefficient:>>>");
+           var b = prompt("entrer le deuxieme coefficient:>>>");
+           var c = prompt("entrer le troisieme coefficient:>>> ");
+
+           d = ((b*b)-(4*a*c));
+           
+           if (d>0){
+            alert("cette equation admet deux solutions distinctes");
+            var x1 = -b -d /2(a);
+            var x2 = -b +d /2(a);
+            alert(x1,x2);
+
+           }else if (d<0){
+            alert("cette equation n'a pas de solution");
+
+           }else if (d==0){
+            alert("cette equation admet une solution unique");
+            var x0 = -b/2(a);
+            alert(x0);
+
+           }
+
+
+
+    </script>
+    
+    
+</body>
+</html>
